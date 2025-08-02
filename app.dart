@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'Livetest/test1.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -12,6 +16,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-void main() {
-  runApp(const MyApp());
-}
